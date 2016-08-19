@@ -40,11 +40,22 @@
 	padding:10px;
 	padding-left:11.5%;
 	padding-right:11.5%;
-	
 	transition: background 0.15s linear;
 	background-color: rgba(0,0,0,0.5);
  }
 
  ul#menubar li a img:hover {
 	background-color: rgba(0,0,0,0.75);
+ }
+ 
+ video#idubbbzvideo {
+	position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    transform: translateX(-50%) translateY(-50%);
+    background-size: cover; 
  }
