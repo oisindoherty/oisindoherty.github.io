@@ -36,10 +36,11 @@
  }
  
  ul#menubar li a img {
+	 float:left;
 	width:10%;
 	padding:10px;
-	padding-left:11.5%;
-	padding-right:11.5%;
+	padding-left:11.66%;
+	padding-right:11.66%;
 	transition: background 0.15s linear;
 	background-color: rgba(0,0,0,0.5);
  }
